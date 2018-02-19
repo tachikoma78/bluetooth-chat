@@ -1,7 +1,6 @@
 package com.client.chat.common.activities;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 
 import com.client.chat.common.logger.LogWrapper;
@@ -15,7 +14,7 @@ public class SampleBaseActivity extends FragmentActivity {
 
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
 

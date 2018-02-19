@@ -1,9 +1,13 @@
-package com.client.chat;
+package com.client.chat.bluetoothchat;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.client.chat.R;
+
+public class MainActivity extends SampleActivityBase {
+
+    public static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
